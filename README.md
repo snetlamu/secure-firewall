@@ -24,10 +24,10 @@ Each specific usecase contains a README file with installation instructions.
 * **ASA on Azure:**
   * _ARM Templates:_
      * [Multiple ASA instances](https://github.com/CiscoDevNet/secure-firewall/tree/main/ASA/Azure/ARM%20Template/Deployment)
-     * [Single ASA instance in single location](https://github.com/CiscoDevNet/secure-firewall/tree/main/ASA/Azure/ARM%20Template/Deployment)
+     * [Single ASA instance in single location](https://github.com/CiscoDevNet/secure-firewall/tree/main/ASA/Azure/ARMTemplate/Deployment)
      * [_ASAv Autoscale_](https://github.com/CiscoDevNet/cisco-asav/tree/master/autoscale/azure)
   * _Terraform templates:_
-     * [Single ASA instance in single location](https://github.com/CiscoDevNet/secure-firewall/tree/main/ASA/Azure/Terraform/Single%20Instance)
+     * [Single ASA instance in single location](https://github.com/CiscoDevNet/secure-firewall/tree/main/ASA/Azure/Terraform/SingleInstance)
      * [Multi Instances in Multiple AZ](https://github.com/CiscoDevNet/secure-firewall/tree/main/ASA/Azure/Terraform/MultiInstanceMultiAZ)
      * [Multi Instances in Multiple AZ using existing subnets](https://github.com/CiscoDevNet/secure-firewall/tree/main/ASA/Azure/Terraform/MultiInstanceMultiAZ_ExistingSubnets) 
 
@@ -63,8 +63,8 @@ Each specific usecase contains a README file with installation instructions.
 
 * **FTD on Azure:**
   * _ARM templates:_
-     * [Multiple FTD instances in AZ](https://github.com/CiscoDevNet/secure-firewall/tree/main/FTD/Azure/ARM%20Template/MultiInstance)
-     * [Single FTD instance](https://github.com/CiscoDevNet/secure-firewall/tree/main/FTD/Azure/ARM%20Template/Standalone) 
+     * [Multiple FTD instances in AZ](https://github.com/CiscoDevNet/secure-firewall/tree/main/FTD/Azure/ARMTemplate/MultiInstance)
+     * [Single FTD instance](https://github.com/CiscoDevNet/secure-firewall/tree/main/FTD/Azure/ARMTemplate/Standalone) 
      * [_FTDv Autoscale_](https://github.com/CiscoDevNet/cisco-ftdv/tree/master/autoscale/azure)
   * _Terraform templates:_
      * [Single FTDv Instance](https://github.com/CiscoDevNet/secure-firewall/tree/main/FTD/Azure/Terraform/SingleInstance)
